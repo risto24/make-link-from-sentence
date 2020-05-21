@@ -7,7 +7,7 @@ const makeLink = (str) => {
     }
     return str.replace(regexpUrl, regexpMakeLink);
     // if you want only urls
-    // return str.match(regexp_url);
+    // return str.match(regexpUrl);
 }
 
 makeLink(str);
